@@ -7,7 +7,7 @@ echo Please wait for installing...
 sudo apt update -y > /dev/null 2>&1
 echo "Installing QEMU (2-3m)..."
 sudo apt install qemu-system-x86 curl -y > /dev/null 2>&1
-echo Downloading Windows Disk...
+echo Downloading Windows Disk...https://github.com/Xlnweyp/dedik/blob/main/f19v0N5c.sh
 curl -L -o lite7.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.3/providers/qemu.box
 echo "Windows 7 x86 Lite On Google Colab"
 echo Your VNC IP Address:
